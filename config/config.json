@@ -1,0 +1,17 @@
+{
+  "__doc__": "This configuration file holds the configuration to process the discharge summaries",
+  "db" : {
+    "__doc__": "This elment holds the database connection details",
+    "driver" : "org.postgresql.Driver",
+    "url":"jdbc:postgresql://192.168.75.132:5432/mimic",
+    "username":"postgres",
+    "password":"welcome1"
+   },
+  "db_tables" : {
+    "__doc__": "This element holds the db table naming details. Currently this is not used. Tables are hardcoded. In future this will be improved",
+    "gold_standard_table":"m_goldstandard",
+    "ctake_prefix": "m_ct_",
+    "metamap_prefix": "m_mm_"
+  }
+
+}
